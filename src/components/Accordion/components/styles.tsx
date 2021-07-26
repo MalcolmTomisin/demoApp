@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     lineHeight: 22,
     color: colors.PRIMARY_BLACK,
-      fontFamily: globalStyles.fonts.FIRMA_REGULAR,
+    fontFamily: globalStyles.fonts.FIRMA_REGULAR,
     marginVertical: 15,
   },
 });
