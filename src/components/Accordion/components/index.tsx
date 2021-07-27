@@ -11,7 +11,7 @@ export default function AccordionComponent() {
     return (
       <View style={styles.headerContainer}>
         <Text style={styles.header}>{item.title}</Text>
-        {expanded ? <Image source={add} /> : <Icon name="remove" />}
+        {!expanded ? <Image source={add} /> : <Icon name="remove" />}
       </View>
     );
   };

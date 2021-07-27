@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header, Left, Body, Button, Title} from 'native-base';
+import {Header, Left, Body, Button, Title, Right} from 'native-base';
 import {StatusBar, Image} from 'react-native';
 import {HeaderType, colors} from '../../../utils';
 import back_button from '../../../../assets/drawables/ic_back.png';
@@ -15,9 +15,14 @@ export default function HeaderComponent({title}: HeaderType) {
             <Image source={back_button} style={styles.backButton} />
           </Button>
         </Left>
-        <Body>
+        <Body style={{justifyContent: 'center', alignItems: "center"}}>
           <Title style={styles.title}>{title}</Title>
         </Body>
+        <Right>
+          <Button transparent>
+            
+          </Button>
+        </Right>
       </Header>
     </>
   );

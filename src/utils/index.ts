@@ -14,6 +14,7 @@ export const colors = {
   PRIMARY_BLACK: '#2F2F2F',
   PRIMARY: '#372AA4',
   GREY: '#DEE2E6',
+  BUTTON_GREY: '#F4F5F7'
 };
 
 export const globalStyles = {

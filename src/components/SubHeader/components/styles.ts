@@ -19,6 +19,5 @@ export const styles = StyleSheet.create({
     fontFamily: globalStyles.fonts.FIRMA_BOLD,
     color: colors.WHITE,
     fontSize: 20,
-    lineHeight: 16,
   },
 });
