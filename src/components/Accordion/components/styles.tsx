@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    paddingVertical: 16,
   },
   divider: {
     height: 1,
@@ -25,4 +26,8 @@ export const styles = StyleSheet.create({
     fontFamily: globalStyles.fonts.FIRMA_REGULAR,
     marginVertical: 15,
   },
+  accordionContainer: {
+    paddingHorizontal: globalStyles.dimens.width * 0.053,
+    paddingVertical: 24,
+  }
 });

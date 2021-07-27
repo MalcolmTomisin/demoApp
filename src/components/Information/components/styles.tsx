@@ -4,10 +4,11 @@ import {globalStyles, colors} from '../../../utils';
 
 export const styles = StyleSheet.create({
     row: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        width: '100%'
+        height: 85,
+        marginHorizontal: globalStyles.dimens.width * 0.053,
+        paddingTop: 16,
+        paddingHorizontal: 16,
+        backgroundColor: colors.WHITE
     },
     border: {
         borderRadius: 8,
@@ -16,7 +17,8 @@ export const styles = StyleSheet.create({
         fontSize: 12,
         lineHeight: 16,
         fontFamily: globalStyles.fonts.FIRMA_REGULAR,
-        color: colors.BUTTON_GREY
+        color: colors.PRIMARY_BLACK,
+        marginLeft: 8,
     },
     bold: {
         fontFamily: globalStyles.fonts.FIRMA_BOLD,
@@ -24,9 +26,13 @@ export const styles = StyleSheet.create({
         fontSize: 15,
     },
     button: {
-        width: 145,
+        flex: 1,
         height: 31,
-        justifyContent: 'space-around',
+        justifyContent: 'center',
+        flexDirection: 'row',
+        backgroundColor: colors.BUTTON_GREY,
+        alignItems: 'center',
+        borderRadius: 8,
     },
     img: {
         height: 15,
@@ -34,6 +40,7 @@ export const styles = StyleSheet.create({
     },
     emoji: {
         height: 12,
-        width: 12
+        width: 12,
+        marginRight: 8,
     }
 })
