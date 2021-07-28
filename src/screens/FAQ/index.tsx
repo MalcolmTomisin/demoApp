@@ -2,8 +2,11 @@ import React from 'react';
 import { Accordion, SubHeader, Info, Categories } from '../../components';
 import {View, Text, ScrollView, StatusBar} from 'react-native';
 import {styles} from './styles';
+
+
 const data = [{title: "General", page: 0},{title: "Safety and Security", page: 1},{title: "Product", page: 2}, {title: "Fees and Charges", page: 3}]
 export default function Screen() {
+
     React.useEffect(() => {
         let arr = [...data];
         arr.shift();

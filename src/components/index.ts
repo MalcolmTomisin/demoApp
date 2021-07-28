@@ -3,3 +3,8 @@ export {default as Header} from './Header/components';
 export {default as SubHeader} from './SubHeader/components';
 export {default as Info} from './Information/components';
 export {default as Categories} from './Categories/components';
+export {default as TextInput} from './Input/components';
+export {default as TextField} from './Input/components/textfield';
+export {default as ImageContainer} from './ImageContainer/components';
+export {default as Button} from './Button/components';
+export {default as Modal} from './Modal/components';
